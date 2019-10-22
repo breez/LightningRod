@@ -4,7 +4,7 @@ In order to make a payment transaction between two Lightning Network nodes, the 
 
 This restriction presents a challenge when the two nodes are not always online, for instance in the case of mobile devices.
 
-Lightning Rod protocol is a way to circuveent this limitation by using an intermediate node which is always online and can securely forward the payment without needing that the payer and the payee are simultaneously online.
+Lightning Rod protocol is a way to circumvent this limitation by using an intermediate node which is always online and can securely forward the payment without needing that the payer and the payee are simultaneously online.
 
 ## Protocol
 
@@ -77,4 +77,4 @@ After receiving the payment from `A`, `S` calls `NS:notify_device(H(pid), "Recei
 
 `A` comes online
 
-`S` settle the transaction from `A` using `p` in order to definitly receive `amt` from `A`
+`S` settle the transaction from `A` using `p` in order to definitely receive `amt` from `A`
