@@ -16,7 +16,7 @@ Lightning Rod protocol is a way to circuveent this limitation by using an interm
 * `amt`: the amount that `A` wants to pay to B. More specifically the amount that `A` wants `B` to receive
 * `fee`: The fee `A` will pay to the Lightning Rod service in order to forward the payment.
 ####
-* `B`: the paye3
+* `B`: the payee
 * `pub_b`: the public id of `B`
 * `device_id_b`: the device id of `B` used to receive notifications
 ####
