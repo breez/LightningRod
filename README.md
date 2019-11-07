@@ -6,6 +6,8 @@ This restriction presents a challenge when the two nodes are not always online, 
 
 Lightning Rod protocol is a way to circumvent this limitation by using an intermediate node which is always online and can securely forward the payment without needing that the payer and the payee are simultaneously online.
 
+See https://medium.com/breez-technology/introducing-lightning-rod-2e0a40d3e44a for a more detailed introduction
+
 ## Protocol
 
 ### Definitions
