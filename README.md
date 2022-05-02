@@ -38,3 +38,6 @@ See [Introducing Lightning Rod](https://medium.com/breez-technology/introducing-
 6. `B` sends a message to `A` with a `pid` value for the field `payment_unblock` in the `encrypted_data_tlv` tlvstream for `LSP_a`
 7. `LSP_a` intercepts this message and unblocks the HTLC(s) which reaches `B`. `B` settles the payment and sends back the preimage corresponding to `h`.
 8. When the preimage reaches `LSP_a`, it [notifies](#notifications) `A`, so when `A` is back online it finally settles the payment.
+
+![drawing](https://user-images.githubusercontent.com/31890660/166234202-e0d990e4-a547-4313-b1bc-dd08f2b312d0.png)
+
