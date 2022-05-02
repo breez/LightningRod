@@ -39,5 +39,6 @@ See [Introducing Lightning Rod](https://medium.com/breez-technology/introducing-
 7. `LSP_a` intercepts this message and unblocks the HTLC(s) which reaches `B`. `B` settles the payment and sends back the preimage corresponding to `h`.
 8. When the preimage reaches `LSP_a`, it [notifies](#notifications) `A`, so when `A` is back online it finally settles the payment.
 
-![drawing](https://user-images.githubusercontent.com/31890660/166234202-e0d990e4-a547-4313-b1bc-dd08f2b312d0.png)
+![drawing](https://user-images.githubusercontent.com/31890660/166234537-511ac3d1-44cc-45ec-9afd-24b74573f5bb.png)
+
 
