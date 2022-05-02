@@ -1,4 +1,4 @@
-# Lightning Rod - async Lightning payments protocol
+# Async Lightning payments protocol
 
 ## Introduction
 
@@ -6,9 +6,9 @@ In order to make a payment transaction between two Lightning Network nodes, the 
 
 This restriction presents a challenge when the two nodes are not always online, for instance in the case of mobile devices.
 
-Lightning Rod protocol is a way to circumvent this limitation by using [LSPs](https://medium.com/breez-technology/introducing-lightning-service-providers-fe9fb1665d5f) which are always online and can intercept incoming/outgoing HTLCs and break the payment flow to an asynchronous flow (payer and the payee are don't have to be simultaneously online). LSPs have also the advantage of being able to send notifications to their users.
+The proposed protocol is a way to circumvent this limitation by using [LSPs](https://medium.com/breez-technology/introducing-lightning-service-providers-fe9fb1665d5f) which are always online and can intercept incoming/outgoing HTLCs and break the payment flow to an asynchronous flow (payer and the payee are don't have to be simultaneously online). LSPs have also the advantage of being able to send notifications to their users.
 
-See [Introducing Lightning Rod](https://medium.com/breez-technology/introducing-lightning-rod-2e0a40d3e44a) for a more detailed introduction. However, unlike the technique described in this post, this version of the Rod is simplified by using an HTLC inteceptor instead of executing two payments. Also, in this version, routing nodes' liquidity isn't being locked while the async payment is processed.
+It's an attempt to formalize a solution proposed by Matt Corallo [here](https://lists.linuxfoundation.org/pipermail/lightning-dev/2021-October/003307.html).
 
 ## Protocol
 
